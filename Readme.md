@@ -1,11 +1,10 @@
-# Readme: Cipher-Decipher App
+# CipherApp
+ An Android app which can cipher and decipher some basic ciphers in an interactive way
 
 <hr>
-## Cipher App
-
 A Cipher App made using Kotlin and Jetpack Compose in Android Studio.
 
-### What it is?
+### What it is..
 
 The App is made to cipher text that the user enters, and also has an option to decipher the same.
 The user can cipher any text in one of the 4 formats I have included, and can copy the ciphered text, and send to someone else, who can use the same app to decipher it. The user deciphering it doesn't need to know what kind of cipher algorithm the cipher is using, the app will figure that out itself.
@@ -13,18 +12,19 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 ### Cipher's used:
 
 - [**Caesar Cipher**]([Caesar cipher - Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher))
-  This cipher shifts some alphabet **_'a'_** by some **_'x'_** letters, thus ciphered alphabet being **_'a+x'_**. Here I have implemented _'x'_ to be **_5_**
+	This cipher shifts some alphabet ***'a'*** by some ***'x'*** letters, thus ciphered alphabet being ***'a+x'***. Here I have implemented *'x'* to be ***5***
 - [Atbash Cipher]([Atbash - Wikipedia](https://en.wikipedia.org/wiki/Atbash))
-  This cipher takes the complement of some alphabet **'a'**, thus the ciphered alphabet being
-  **_'26-a'_**.
+	This cipher takes the complement of some alphabet **'a'**, thus the ciphered alphabet being 
+	***'26-a'***.
 - [Transposition Cipher]([Transposition Cipher (tutorialspoint.com)](https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_transposition_cipher.htm))
-  This cipher takes all letters of the entered text, enters them into a matrix of dimensions
-  (rows)\*("Word".length) rowise, where the word chosen was **"CIPHER"**.
-  Then the ciphered text is determined by reading the matrix columnwise.
+	This cipher takes all letters of the entered text, enters them into a matrix of dimensions 
+	(rows)\*("Word".length) rowise, where the word chosen was **"CIPHER"**. 
+	Then the ciphered text is determined by reading the matrix columnwise.
 - [Polyalphabetic Substitution Cipher]([Vigenère cipher - Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher))
-  This cipher shifts some alphabet **'a'** in the text by some letter **'z'** from a key, thus the ciphered letter being **'z+a'**.
+	This cipher shifts some alphabet **'a'** in the text by some letter **'z'** from a key, thus the ciphered letter being **'z+a'**.
 
 <hr>
+
 ## How to use
 - The first screen gives the option to ***Cipher*** or ***Decipher***
 - **Cipher:**
@@ -38,16 +38,17 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 - **Navigation within screens can only be done by clicking buttons or using the back button on the NavBar.**
 
 <hr>
+
 ## Inspiration
 
 I got the inspiration to do this project from:
-
 - [The Imitation Game(2014)](https://www.imdb.com/title/tt2084970/)
 - [CS50x Week 2 Problem Set based on Ciphers]([Problem Set 2 - CS50x 2022 (harvard.edu)](https://cs50.harvard.edu/x/2022/psets/2/))
 - [Da Vinci Code(2003)]([The Da Vinci Code - Wikipedia](https://en.wikipedia.org/wiki/The_Da_Vinci_Code))
-  and more..
+and more..
 
 <hr>
+
 ## References
 - *Da Vinci Code* for cipher ideas.
 - The aforementioned links for understanding and implementation of those ideas.
