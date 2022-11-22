@@ -43,8 +43,8 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 
 I got the inspiration to do this project from:
 - [The Imitation Game(2014)](https://www.imdb.com/title/tt2084970/)
-- [CS50x Week 2 Problem Set based on Ciphers]([Problem Set 2 - CS50x 2022 (harvard.edu)](https://cs50.harvard.edu/x/2022/psets/2/))
-- [Da Vinci Code(2003)]([The Da Vinci Code - Wikipedia](https://en.wikipedia.org/wiki/The_Da_Vinci_Code))
+- [CS50x Week 2 Problem Set based on Ciphers](https://cs50.harvard.edu/x/2022/psets/2/)
+- [Da Vinci Code(2003)](https://en.wikipedia.org/wiki/The_Da_Vinci_Code)
 and more..
 
 <hr>
