@@ -24,6 +24,7 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 	This cipher shifts some alphabet **'a'** in the text by some letter **'z'** from a key, thus the ciphered letter being **'z+a'**.
 
 <hr>
+
 ## How to use
 - The first screen gives the option to ***Cipher*** or ***Decipher***
 - **Cipher:**
@@ -37,6 +38,7 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 - **Navigation within screens can only be done by clicking buttons or using the back button on the NavBar.**
 
 <hr>
+
 ## Inspiration
 
 I got the inspiration to do this project from:
@@ -46,6 +48,7 @@ I got the inspiration to do this project from:
 and more..
 
 <hr>
+
 ## References
 - *Da Vinci Code* for cipher ideas.
 - The aforementioned links for understanding and implementation of those ideas.
