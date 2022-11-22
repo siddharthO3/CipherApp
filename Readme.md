@@ -11,16 +11,16 @@ The user can cipher any text in one of the 4 formats I have included, and can co
 
 ### Cipher's used:
 
-- [**Caesar Cipher**]([Caesar cipher - Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher))
+- [**Caesar Cipher**](https://en.wikipedia.org/wiki/Caesar_cipher)
 	This cipher shifts some alphabet ***'a'*** by some ***'x'*** letters, thus ciphered alphabet being ***'a+x'***. Here I have implemented *'x'* to be ***5***
-- [Atbash Cipher]([Atbash - Wikipedia](https://en.wikipedia.org/wiki/Atbash))
+- [**Atbash Cipher**](https://en.wikipedia.org/wiki/Atbash)
 	This cipher takes the complement of some alphabet **'a'**, thus the ciphered alphabet being 
 	***'26-a'***.
-- [Transposition Cipher]([Transposition Cipher (tutorialspoint.com)](https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_transposition_cipher.htm))
+- [**Transposition Cipher**](https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_transposition_cipher.htm)
 	This cipher takes all letters of the entered text, enters them into a matrix of dimensions 
 	(rows)\*("Word".length) rowise, where the word chosen was **"CIPHER"**. 
 	Then the ciphered text is determined by reading the matrix columnwise.
-- [Polyalphabetic Substitution Cipher]([Vigenère cipher - Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher))
+- [**Polyalphabetic Substitution Cipher**](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 	This cipher shifts some alphabet **'a'** in the text by some letter **'z'** from a key, thus the ciphered letter being **'z+a'**.
 
 <hr>
